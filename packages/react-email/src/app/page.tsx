@@ -25,7 +25,7 @@ const Home = () => {
             width={141}
           />
           <Heading as="h2" size="6" weight="medium">
-            Welcome to React Email
+            Welcome to React Email!!!!
           </Heading>
           <Text as="p" className="mt-2 mb-4">
             To start developing your emails, you can create a<br />

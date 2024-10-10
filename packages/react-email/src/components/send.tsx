@@ -12,11 +12,13 @@ export const Send = ({ markup }: { markup: string }) => {
   const [isPopOverOpen, setIsPopOverOpen] = React.useState(false);
 
   const onFormSubmit = async (e: React.FormEvent) => {
+    console.log('sending');
     try {
       e.preventDefault();
       setIsSending(true);
 
       const response = await fetch('https://react.email/api/send/test', {
+       
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
