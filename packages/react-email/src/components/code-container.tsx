@@ -29,6 +29,8 @@ export const CodeContainer: React.FC<Readonly<CodeContainerProps>> = ({
 }) => {
   const [isCopied, setIsCopied] = React.useState(false);
 
+  console.log("TEST");
+
   const renderDownloadIcon = () => {
     const value = markups.filter((markup) => markup.language === activeLang);
     if (typeof value[0] === 'undefined') return;
