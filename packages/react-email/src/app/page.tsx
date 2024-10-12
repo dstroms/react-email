@@ -36,7 +36,7 @@ const Home = () => {
           </Text>
 
           <Button asChild size="3">
-            <Link href="https://react.email/docs">Check the docs</Link>
+            <Link href="https://react.email/docs">Check the docs!!</Link>
           </Button>
         </div>
       </div>
