@@ -32,7 +32,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "file:/Users/drewstromberg/Documents/personal/react-email",
+    "url": "github:dstroms/react-email#canary",
     "directory": "packages/html"
   },
   "keywords": [
