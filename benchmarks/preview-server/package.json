@@ -16,13 +16,13 @@
     "node": ">=18.0.0"
   },
   "dependencies": {
-    "react-email": "workspace:*",
+    "react-email": "latest",
     "react-email-canary": "npm:react-email@2.1.7-canary.2",
     "tinybench": "2.5.1"
   },
   "devDependencies": {
-    "eslint-config-custom": "workspace:*",
-    "tsconfig": "workspace:*",
+    "eslint-config-custom": "latest",
+    "tsconfig": "latest",
     "tsx": "4.7.1",
     "typescript": "5.1.6"
   }
