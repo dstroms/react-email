@@ -24,6 +24,7 @@ const Home = () => {
             }}
             width={141}
           />
+          RWARå
           <Heading as="h2" size="6" weight="medium">
             Welcome to React Email!!!!
           </Heading>

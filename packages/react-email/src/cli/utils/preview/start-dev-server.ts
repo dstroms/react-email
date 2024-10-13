@@ -159,7 +159,9 @@ export const startDevServer = async (
     text: `Ready in ${secondsToNextReady}s\n`,
     symbol: logSymbols.success,
   });
-
+  console.log('Preview server location:', previewServerLocation);
+  console.log('Current working directory:', process.cwd());
+  console.log('Is Dev:', isDev);
   return devServer;
 };
 

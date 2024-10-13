@@ -5,7 +5,7 @@
   "tasks": {
     "build": {
       "dependsOn": ["^build"],
-      "outputs": ["dist/**"]
+      "outputs": ["dist/**", ".react-email/**"]
     },
     "web#build": {
       "dependsOn": ["^build"],
@@ -17,12 +17,12 @@
       "outputs": [".next/**", "!.next/cache/**"]
     },
     "demo#build": {
-      "dependsOn": ["^build"],
+      "dependsOn": ["^build", "react-email#build"],
       "outputs": [".react-email/**", "!.react-email/.next/cache/**"]
     },
     "react-email#build": {
       "dependsOn": ["^build"],
-      "outputs": ["dist/**"]
+      "outputs": ["dist/**", ".react-email/**"]
     },
     "lint": {},
     "//#format": {},

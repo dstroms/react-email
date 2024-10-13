@@ -18,7 +18,6 @@ export const Send = ({ markup }: { markup: string }) => {
       setIsSending(true);
 
       const response = await fetch('https://react.email/api/send/test', {
-       
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
